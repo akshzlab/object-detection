@@ -1,0 +1,34 @@
+# Data directories
+data/raw/
+data/processed/
+data/images/
+data/labels/
+
+# Training outputs
+runs/
+*.pt
+*.pth
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Output directories
+output/
+logs/
+results/
+
+# Environment
+.env
+venv/
+env/

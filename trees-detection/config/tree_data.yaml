@@ -1,0 +1,22 @@
+# YOLOv8 Tree Detection Dataset Configuration
+# 
+# This configuration file defines the dataset structure for training
+# a YOLOv8 model for tree detection in satellite/drone imagery.
+
+# Path to dataset root directory
+# Can be absolute or relative to this config file location
+path: ../data/processed
+
+# Paths to train and val images/labels directories
+train: train/images
+val: val/images
+
+# Optional: test images/labels directory
+# test: test/images
+
+# Number of classes (1 = only 'tree' class)
+nc: 1
+
+# Class names
+names:
+  0: tree
