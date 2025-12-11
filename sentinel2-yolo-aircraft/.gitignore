@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Models (all formats)
+models/**/*.pt
+models/**/*.onnx
+models/**/*.pkl
+models/**/*.h5
+models/**/*.pth
+
+# Data
+data/synthetic_sample/
+data/*.tif
+data/*.tiff
+data/*.geotiff
+data/detections/
+*.geojson
+
+# YOLO Training outputs
+runs/
+results/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup

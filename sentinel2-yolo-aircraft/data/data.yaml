@@ -1,0 +1,15 @@
+# Data configuration for Sentinel-2 aircraft detection
+# Paths are relative to the data/ directory
+
+path: /workspaces/object-detection/sentinel2-yolo-aircraft/data/synthetic_sample
+
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: aircraft
