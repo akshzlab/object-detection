@@ -1,0 +1,14 @@
+# Car Detection Dataset Configuration
+# YOLO Dataset format configuration
+
+path: ../data
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1  # Number of classes
+names: ['car']  # Class names
+
+# Optional: Define class-specific parameters
+# colors:
+#   - [255, 0, 0]  # Blue for car
