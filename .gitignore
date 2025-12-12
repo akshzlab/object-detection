@@ -1,4 +1,7 @@
-Aircraft-1
+aircraft-detection/notebooks/Aircraft-1/test
+aircraft-detection/notebooks/Aircraft-1/train
+aircraft-detection/notebooks/Aircraft-1/valid
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
